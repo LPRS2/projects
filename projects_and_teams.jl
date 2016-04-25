@@ -214,23 +214,35 @@ projects = Project[
 	Project(
 		"MP3 Player with text UI",
 		45,
-		3,
+		4,
 		Team(
 			Student[
 				Student(
-					"??",
-					"??",
-					"RA-???/20??",
-					"?@?"
+					"Nikola",
+					"Blažić",
+					"RA-170/2013",
+					"nblazic942@gmail.com"
 				),
 				Student(
-					"??",
-					"??",
-					"RA-???/20??",
-					"?@?"
+					"Aleksandar",
+					"Cumbo",
+					"RA-186/2013",
+					"aco.cumbo@hotmail.com"
+				),
+				Student(
+					"Aleksandar",
+					"Lukić",
+					"RA-139/2011",
+					"lukicsu@gmail.com"
+				),
+				Student(
+					"Boško",
+					"Kragulj",
+					"RA-248/2013",
+					"kraguljbosko16@gmail.com"
 				)
 			],
-			"https://github.com/?/?"
+			"https://github.com/223323/mp3player"
 		)
 	),
 	Project(
