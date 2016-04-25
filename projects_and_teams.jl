@@ -30,19 +30,19 @@ projects = Project[
 		Team(
 			Student[
 				Student(
-					"??",
-					"??",
-					"RA-???/20??",
-					"?@?"
+					"Darko",
+					"Lukić",
+					"RA-117/2013",
+					"lukicdarkoo@gmail.com"
 				),
 				Student(
-					"??",
-					"??",
-					"RA-???/20??",
-					"?@?"
+					"Igor",
+					"Stefanović",
+					"RA-83/2013",
+					"igor.stefanovic94@gmail.com"
 				)
 			],
-			"https://github.com/?/?"
+			"https://github.com/lukicdarkoo/fpga-matrix-snake"
 		)
 	),
 	Project(
