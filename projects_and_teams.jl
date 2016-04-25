@@ -74,19 +74,19 @@ projects = Project[
 		Team(
 			Student[
 				Student(
-					"??",
-					"??",
-					"RA-???/20??",
-					"?@?"
+					"Eleonora",
+					"Nan",
+					"RA-180/2013",
+					"nan.eleonora@gmail.com"
 				),
 				Student(
-					"??",
-					"??",
-					"RA-???/20??",
-					"?@?"
+					"Una",
+					"Radosavac",
+					"RA-28/2013",
+					"una.radosavac@gmail.com"
 				)
 			],
-			"https://github.com/?/?"
+			"https://github.com/eleonnora/project"
 		)
 	),
 	Project(
