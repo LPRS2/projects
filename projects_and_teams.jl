@@ -286,7 +286,7 @@ projects = Project[
 					"m.mariyanna@hotmail.com"
 				)
 			],
-			"https://github.com/?/?"
+			"https://github.com/authext/LPRS2-Project"
 		)
 	),
 	Project(
