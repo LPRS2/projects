@@ -168,10 +168,10 @@ projects = Project[
 		Team(
 			Student[
 				Student(
-					"??",
-					"??",
-					"RA-???/20??",
-					"?@?"
+					"Boris",
+					"Tesic",
+					"RA-198/2011",
+					"btesic@gmail.com"
 				),
 				Student(
 					"??",
