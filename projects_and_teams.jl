@@ -140,16 +140,22 @@ projects = Project[
 		Team(
 			Student[
 				Student(
-					"??",
-					"??",
-					"RA-???/20??",
-					"?@?"
+					"Sunčica",
+					"Milivojša",
+					"RA-27/2013",
+					"suncicam@neobee.net"
 				),
 				Student(
-					"??",
-					"??",
-					"RA-???/20??",
-					"?@?"
+					"Sandra",
+					"Ivanović",
+					"RA-46/2013",
+					"sivanovic17@gmail.com"
+				)
+				Student(
+					"Tatjana",
+					"Erić",
+					"RA-207/2013",
+					"tanjchy0304@gmail.com"
 				)
 			],
 			"https://github.com/?/?"
