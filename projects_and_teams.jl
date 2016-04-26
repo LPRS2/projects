@@ -179,6 +179,12 @@ projects = Project[
 					"RA-16/2013",
 					"stefann.stojanovic@gmail.com"
 				)
+				Student(
+					"Aleksandar",
+					"Tanaskovic",
+					"RA-187/2011",
+					"aleksandar1321@gmail.com"
+				)
 			],
 			"https://github.com/?/?"
 		)
