@@ -114,23 +114,36 @@ projects = Project[
 	Project(
 		"16-colors index VGA over FSL bus – game of choice",
 		45,
-		3,
+		4,
 		Team(
 			Student[
 				Student(
-					"??",
-					"??",
-					"RA-???/20??",
-					"?@?"
+					"Marko",
+					"Majkić",
+					"RA-116/2012",
+					"majkic@live.com"
 				),
 				Student(
-					"??",
-					"??",
-					"RA-???/20??",
-					"?@?"
+					"Stanko",
+					"Ćućuz",
+					"RA-93/2013",
+					"stankocucuz2@gmail.com"
+				),
+				Student(
+					"Milan",
+					"Novaković",
+					"RA-85/2013",
+					"milan94bp@gmail.com"
+				),
+				Student(
+					"Uroš",
+					"Višekruna",
+					"RA-84/2013",
+					"urosko123@gmail.com"
 				)
+				
 			],
-			"https://github.com/?/?"
+			"https://github.com/MarkoMajkic/LPRS2_Project.git"
 		)
 	),
 	Project(
