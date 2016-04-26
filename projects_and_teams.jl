@@ -114,7 +114,7 @@ projects = Project[
 	Project(
 		"16-colors index VGA over FSL bus – game of choice",
 		45,
-		3,
+		4,
 		Team(
 			Student[
 				Student(
@@ -143,7 +143,7 @@ projects = Project[
 				)
 				
 			],
-			"https://github.com/MarkoMajkic/projects.git"
+			"https://github.com/MarkoMajkic/LPRS2_Project.git"
 		)
 	),
 	Project(
