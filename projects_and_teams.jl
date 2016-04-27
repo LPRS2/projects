@@ -181,7 +181,7 @@ projects = Project[
 					"Erić",
 					"RA-207/2013",
 					"tanjchy0304@gmail.com"
-				)
+				),
 				Student(
 					"Dušan",
 					"Mitrović",
