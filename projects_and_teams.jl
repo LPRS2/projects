@@ -52,19 +52,31 @@ projects = Project[
 		Team(
 			Student[
 				Student(
-					"Isidor",
-					"Rimski",
-					"RA-115/2012",
-					"isidor.r3@gmail.com"
+					"Damir",
+					"Becirbasic",
+					"RA-68/2013",
+					"dmrbecirbasic22@gmail.com"
 				),
 				Student(
-					"David",
-					"Ujhzi",
-					"RA-34/2011",
-					"davidujhazi@yahoo.com"
+					"Milos",
+					"Pranjkic",
+					"RA-76/2013",
+					"pranjkic94@gmail.com"
+				),
+				Student(
+					"Marko",
+					"Gostovic",
+					"RA-77/2013",
+					"markog.1994@gmail.com"
+				),
+				Student(
+					"Milica",
+					"Matic",
+					"RA-96/2013",
+					"maticmilica1912@gmail.com"
 				)
 			],
-			"https://github.com/isidorr3/projekatLPRS2"
+			"https://github.com/markog001"
 		)
 	),
 	Project(
@@ -163,7 +175,7 @@ projects = Project[
 					"Ivanović",
 					"RA-46/2013",
 					"sivanovic17@gmail.com"
-				)
+				),
 				Student(
 					"Tatjana",
 					"Erić",
@@ -181,22 +193,22 @@ projects = Project[
 		Team(
 			Student[
  				Student(
- +					"Boris",
- +					"Tesic",
- +					"RA-198/2011",
- +					"btesic@gmail.com"
+					"Boris",
+					"Tesic",
+					"RA-198/2011",
+ 					"btesic@gmail.com"
   				),
   				Student(
- +					"Stefan",
- +					"Stojanovic",
- +					"RA-16/2013",
- +					"stefann.stojanovic@gmail.com"
- +				)
- +				Student(
- +					"Aleksandar",
- +					"Tanaskovic",
- +					"RA-187/2011",
- +					"aleksandar1321@gmail.com"
+ 					"Stefan",
+ 					"Stojanovic",
+ 					"RA-16/2013",
+ 					"stefann.stojanovic@gmail.com"
+ 				),
+ 				Student(
+ 					"Aleksandar",
+ 					"Tanaskovic",
+ 					"RA-187/2011",
+ 					"aleksandar1321@gmail.com"
   				)
 			],
 			"https://github.com/?/?"
@@ -219,13 +231,13 @@ projects = Project[
 					"Ivankovic",
 					"RA-89/2013",
 					"ivankovic_milan@yahoo.com"
-				)
+				),
 				Student(
 					"Branislav",
 					"Vukovic",
 					"RA-88/2013",
 					"vukovic.94@hotmail.com"
-				)
+				),
 				Student(
 					"Nemanja",
 					"Pajic",
@@ -377,37 +389,25 @@ projects = Project[
 		)
 	),
 	Project(
-		"Simple joypads – integrate to some game",
+		"Sega controller – integrate to some game",
 		45,
 		3,
 		Team(
 			Student[
 				Student(
-					"Damir",
-					"Becirbasic",
-					"RA-68/2013",
-					"dmrbecirbasic22@gmail.com"
+					"Isidor",
+					"Rimski",
+					"RA-115/2012",
+					"isidor.r3@gmail.com"
 				),
 				Student(
-					"Milos",
-					"Pranjkic",
-					"RA-76/2013",
-					"pranjkic94@gmail.com"
-				)
-				Student(
-					"Marko",
-					"Gostovic",
-					"RA-77/2013",
-					"markog.1994@gmail.com"
-				)
-				Student(
-					"Milica",
-					"Matic",
-					"RA-96/2013",
-					"maticmilica1912@gmail.com"
+					"David",
+					"Ujhzi",
+					"RA-34/2011",
+					"davidujhazi@yahoo.com"
 				)
 			],
-			"https://github.com/markog001"
+			"https://github.com/isidorr3/projekatLPRS2"
 		)
 	)
 ]
