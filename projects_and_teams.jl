@@ -147,7 +147,7 @@ projects = Project[
 		)
 	),
 	Project(
-		"320x240 9-bit RGB VGA – game of choice",
+		"320x240 9-bit RGB VGA – Minesweeper",
 		45,
 		3,
 		Team(
@@ -169,6 +169,12 @@ projects = Project[
 					"Erić",
 					"RA-207/2013",
 					"tanjchy0304@gmail.com"
+				)
+				Student(
+					"Dušan",
+					"Mitrović",
+					"RA-64 /2013",
+					"thedushn@email.com"
 				)
 			],
 			"https://github.com/?/?"
