@@ -13,12 +13,20 @@ type Team
 	repo::AbstractString
 end
 
+typealias URL AbstractString
+type Spec
+	text::AbstractString
+	resources::Vector{URL}
+end
+
 type Project
 	name::AbstractString
 	points::Int
 	min_team_members::Int
 	team::Team
+	spec::Spec
 end
+
 
 ###############################################################################
 
@@ -43,6 +51,13 @@ projects = Project[
 				)
 			],
 			"https://github.com/lukicdarkoo/fpga-matrix-snake"
+		),
+		Spec(
+			"??",
+			URL[
+				URL("??"),
+				URL("??")
+			]
 		)
 	),
 	Project(
@@ -77,6 +92,13 @@ projects = Project[
 				)
 			],
 			"https://github.com/markog001"
+		),
+		Spec(
+			"??",
+			URL[
+				URL("??"),
+				URL("??")
+			]
 		)
 	),
 	Project(
@@ -99,6 +121,13 @@ projects = Project[
 				)
 			],
 			"https://github.com/eleonnora/project"
+		),
+		Spec(
+			"??",
+			URL[
+				URL("??"),
+				URL("??")
+			]
 		)
 	),
 	Project(
@@ -121,6 +150,13 @@ projects = Project[
 				)
 			],
 			"https://github.com/milosnikolic93/lprs2-projekat"
+		),
+		Spec(
+			"??",
+			URL[
+				URL("??"),
+				URL("??")
+			]
 		)
 	),
 	Project(
@@ -156,6 +192,13 @@ projects = Project[
 				
 			],
 			"https://github.com/MarkoMajkic/LPRS2_Project.git"
+		),
+		Spec(
+			"??",
+			URL[
+				URL("??"),
+				URL("??")
+			]
 		)
 	),
 	Project(
@@ -190,6 +233,13 @@ projects = Project[
 				)
 			],
 			"https://github.com/?/?"
+		),
+		Spec(
+			"??",
+			URL[
+				URL("??"),
+				URL("??")
+			]
 		)
 	),
 	Project(
@@ -218,6 +268,13 @@ projects = Project[
   				)
 			],
 			"https://github.com/?/?"
+		),
+		Spec(
+			"??",
+			URL[
+				URL("??"),
+				URL("??")
+			]
 		)
 	),
 	Project(
@@ -252,6 +309,13 @@ projects = Project[
 				)
 			],
 			"https://github.com/boza94/?"
+		),
+		Spec(
+			"??",
+			URL[
+				URL("http://avrprog.pbworks.com/w/page/9345379/AvrSound"),
+				URL("??")
+			]
 		)
 	),
 	Project(
@@ -286,6 +350,13 @@ projects = Project[
 				)
 			],
 			"https://github.com/223323/mp3player"
+		),
+		Spec(
+			"??",
+			URL[
+				URL("??"),
+				URL("??")
+			]
 		)
 	),
 	Project(
@@ -308,6 +379,13 @@ projects = Project[
 				)
 			],
 			"https://github.com/?/?"
+		),
+		Spec(
+			"??",
+			URL[
+				URL("https://github.com/MilosSubotic/Config_CPU"),
+				URL("??")
+			]
 		)
 	),
 	Project(
@@ -342,6 +420,13 @@ projects = Project[
 				)
 			],
 			"https://github.com/authext/LPRS2-Project"
+		),
+		Spec(
+			"??",
+			URL[
+				URL("??"),
+				URL("??")
+			]
 		)
 	),
 	Project(
@@ -364,6 +449,13 @@ projects = Project[
 				)
 			],
 			"https://github.com/?/?"
+		),
+		Spec(
+			"??",
+			URL[
+				URL("??"),
+				URL("??")
+			]
 		)
 	),
 	Project(
@@ -392,6 +484,13 @@ projects = Project[
 				)
 			],
 			"https://github.com/Andrmoljac/?"
+		),
+		Spec(
+			"??",
+			URL[
+				URL("??"),
+				URL("??")
+			]
 		)
 	),
 	Project(
@@ -414,6 +513,13 @@ projects = Project[
 				)
 			],
 			"https://github.com/isidorr3/projekatLPRS2"
+		),
+		Spec(
+			"??",
+			URL[
+				URL("??"),
+				URL("??")
+			]
 		)
 	)
 ]
