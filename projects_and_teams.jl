@@ -515,7 +515,21 @@ projects = Project[
 			"https://github.com/isidorr3/projekatLPRS2"
 		),
 		Spec(
-			"??",
+			"""
+- Board with 3x CD4053 for muxing between two controllers.
+	- 7-bits data, GND and 5V to every controller.
+	- Jumper for inhibit.
+	- Pull-down 10k for every data pin going to controllers.
+	- 2x 100 Ohm or similar small resistor protection to controllers.
+- Connect board to snap wire on E2LP:
+	- 7-bits data, one mux select.
+	- 5V and GND.
+	- E2LP.ucf
+- AXI GPIO:
+	- command from mux select
+	- Reverse engineering of data pins
+	- Check [1] how approximately should controller protocol should work. 
+			""",
 			URL[
 				URL("https://www.cs.cmu.edu/~chuck/infopg/segasix.txt")
 			]
