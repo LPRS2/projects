@@ -517,8 +517,7 @@ projects = Project[
 		Spec(
 			"??",
 			URL[
-				URL("??"),
-				URL("??")
+				URL("https://www.cs.cmu.edu/~chuck/infopg/segasix.txt")
 			]
 		)
 	)
