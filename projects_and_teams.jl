@@ -420,3 +420,15 @@ projects = Project[
 
 ###############################################################################
 
+function no_of_students(project::Project)
+	if project.team.members[1].name == "??"
+		return 0
+	else
+		return length(project.team.members)
+	end
+end
+N_students = sum(map(no_of_students, projects))
+@show N_students
+
+###############################################################################
+
