@@ -152,10 +152,21 @@ projects = Project[
 			"https://github.com/milosnikolic93/lprs2-projekat"
 		),
 		Spec(
-			"??",
+			"""
+- In sch_7-segment_display and comb_logic there is explanation how 7-segment LED display works.
+- Need to do time multiplexing of 4 7-segment LED displays.
+- 8-bit pins goes to displays anodes (7 segments and dot) of all displays (active high).
+- 8-bit pins goes to cathodes of every display (active high).
+- Need to make AXI peripheral with:
+	- memory mapped reg of every digit,
+	- reg for dots,
+	- counter for cycle digit mux,
+	- bcd to 7-segment decoder.
+- E2LP pins will be defined when board is made.
+			""",
 			URL[
-				URL("??"),
-				URL("??")
+				URL("http://www.rt-rk.uns.ac.rs/sites/default/files/sch_7-segment_display-2015-11-06-13-29-32_0.zip"),
+				URL("http://www.rt-rk.uns.ac.rs/sites/default/files/comb_logic-2015-11-06-15-34-01.zip")
 			]
 		)
 	),
