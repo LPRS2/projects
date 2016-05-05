@@ -385,7 +385,11 @@ Use AXI Timer for generating PWM or design custom PWM HW peripheral.
 			"https://github.com/223323/mp3player"
 		),
 		Spec(
-			"??",
+			"""
+Fork E2LP MP3 project and implement textural user interface for it.
+Remove from vga_periph_mem support for graphic mode, to free memory needed for MP3, 
+and add it to project.
+			""",
 			URL[
 				URL("??"),
 				URL("??")
