@@ -422,7 +422,7 @@ Use AXI Timer for generating PWM or design custom PWM HW peripheral.
 		)
 	),
 	Project(
-		"Array of simple processors – algorithm of choice",
+		"Array of simple processors – Shelving Audio Equilizer",
 		45,
 		3,
 		Team(
@@ -455,10 +455,23 @@ Use AXI Timer for generating PWM or design custom PWM HW peripheral.
 			"https://github.com/authext/LPRS2-Project"
 		),
 		Spec(
-			"??",
+			"""
+Implement simple processor:
+	- Define instruction set,
+	- Generate assempler and VHDL package with Config_CPU,
+	- Implement processor core in VHDL.
+Create array of simple processors.
+Develop firmware for shelving equilizer on array:
+	- Every processor should execute one shelving filter,
+	- Samples should be propagiated between processors,
+	- It is enough good to hardcode filter coefficients.
+Wrapp design to AXI peripheral and integrate it to uBlaze system.
+Use AsAP as inspiration.
+			""",
 			URL[
-				URL("??"),
-				URL("??")
+				URL("https://github.com/MilosSubotic/Config_CPU"),
+				URL("https://en.wikipedia.org/wiki/Asynchronous_array_of_simple_processors"),
+				URL("http://vcl.ece.ucdavis.edu/")
 			]
 		)
 	),
