@@ -173,7 +173,7 @@ Simple AXI peripheral with sampling RC-5 protocol.
 		)
 	),
 	Project(
-		"16-colors index VGA over FSL bus – game of choice",
+		"16-colors index VGA over FSL bus – upgrade Space Invaders",
 		45,
 		4,
 		Team(
@@ -210,6 +210,7 @@ Simple AXI peripheral with sampling RC-5 protocol.
 			"""
 Fork Space Invaders project from last year 
 and modify hardware to map graphic memory via FSL bus instead AXI Lite.
+Upgrade Space Invaders game to use new higher bandwidth.
 			""",
 			URL[
 				URL("http://www.xilinx.com/support/documentation/application_notes/xapp529.pdf")
