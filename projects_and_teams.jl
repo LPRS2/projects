@@ -210,6 +210,7 @@ Simple AXI peripheral with sampling RC-5 protocol.
 			"""
 Fork Space Invaders project from last year 
 and modify hardware to map graphic memory via FSL bus instead AXI Lite.
+Use xapp529 PDF and it's projects as examples how FSL should be implemented.
 Upgrade Space Invaders game to use new higher bandwidth.
 			""",
 			URL[
