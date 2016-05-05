@@ -248,7 +248,11 @@ Simple AXI peripheral with sampling RC-5 protocol.
 			"https://github.com/?/?"
 		),
 		Spec(
-			"??",
+			"""
+Change graphic memory sturcture and AXI mapping to have 9-bit.
+Change read address calculation to support 320x240 resolution.
+Remove indexing graphic mode with direct one.
+			""",
 			URL[
 				URL("??"),
 				URL("??")
