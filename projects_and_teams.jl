@@ -94,9 +94,11 @@ projects = Project[
 			"https://github.com/markog001"
 		),
 		Spec(
-			"??",
+			"""
+Simple AXI peripheral with sampling RC-5 protocol.
+			""",
 			URL[
-				URL("??"),
+				URL("http://www.sbprojects.com/knowledge/ir/rc5.php"),
 				URL("??")
 			]
 		)
