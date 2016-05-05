@@ -532,7 +532,10 @@ Use AsAP as inspiration.
 			"https://github.com/Andrmoljac/?"
 		),
 		Spec(
-			"??",
+			"""
+Fork Tetris project from last year 
+and upgrade software with support for complex 4-square shapes.
+			""",
 			URL[
 				URL("??"),
 				URL("??")
