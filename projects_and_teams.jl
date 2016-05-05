@@ -207,10 +207,12 @@ Simple AXI peripheral with sampling RC-5 protocol.
 			"https://github.com/MarkoMajkic/LPRS2_Project.git"
 		),
 		Spec(
-			"??",
+			"""
+Fork Space Invaders project from last year 
+and modify hardware to map graphic memory via FSL bus instead AXI Lite.
+			""",
 			URL[
-				URL("??"),
-				URL("??")
+				URL("http://www.xilinx.com/support/documentation/application_notes/xapp529.pdf")
 			]
 		)
 	),
