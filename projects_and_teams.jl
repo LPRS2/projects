@@ -125,10 +125,12 @@ Simple AXI peripheral with sampling RC-5 protocol.
 			"https://github.com/eleonnora/project"
 		),
 		Spec(
-			"??",
+			"""
+Fork Battle City project and reimplement graphic pipeline from scratch.
+Implement Super Mario game on new platform.
+			""",
 			URL[
-				URL("??"),
-				URL("??")
+				URL("https://github.com/RELJEF/battle_city_fpga")
 			]
 		)
 	),
