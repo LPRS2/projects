@@ -324,7 +324,10 @@ Simple AXI peripheral with sampling RC-5 protocol.
 			"https://github.com/boza94/?"
 		),
 		Spec(
-			"??",
+			"""
+Port AVR MIDI Buzzer project to uBlaze.
+Use AXI Timer for generating PWM or design custom PWM HW peripheral.
+			""",
 			URL[
 				URL("http://avrprog.pbworks.com/w/page/9345379/AvrSound"),
 				URL("??")
