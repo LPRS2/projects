@@ -5,4 +5,5 @@
 - Put E2LP schematic on git.
 - Do I need level shifters for front panel bus from 3V3 to 5V for Sega controller.
 - Put AXI Timer example on git.
-- Add AsAP papers for AsAP team to have inspiration for architecture and instruction set.
+- Add AsAP papers for ASP team to have inspiration for architecture and instruction set.
+- Maybe FIFO for ASP team.
