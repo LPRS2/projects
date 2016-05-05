@@ -53,10 +53,17 @@ projects = Project[
 			"https://github.com/lukicdarkoo/fpga-matrix-snake"
 		),
 		Spec(
-			"??",
+			"""
+Create custom peripheral for driving 8x8 RGB LED display.
+Peripheral should have:
+	- memory mapped matrix of LEDs (3 bits per word),
+	- FSM which read matrix and serialize controling bits.
+4x CD4094 will be used as deserialization IC.
+Implement Snake game on new fancy hardware.
+			""",
 			URL[
-				URL("??"),
-				URL("??")
+				URL("http://www.gotronic.fr/pj-1313.pdf"),
+				URL("http://www.midondesign.com/Documents/4094BC.PDF")
 			]
 		)
 	),
