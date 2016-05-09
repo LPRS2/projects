@@ -1,10 +1,10 @@
 
 - Gertschmeier and Latas pearson aren't in any team.
-- Dig all last year project (Tetris, Space Invaders, Battle Sity) and put at least links to git.
-- Tetris project from last year and put URL in Doctor Mario team's spec.
-- Put E2LP schematic on git.
+- Dig all last year project (Tetris, +Space Invaders, +Battle City) and put at least links to git.
++ Tetris project from last year and put URL in Doctor Mario team's spec.
++ Put E2LP schematic on git.
 - Do I need level shifters for front panel bus from 3V3 to 5V for Sega controller.
 - Put AXI Timer example on git.
-- Add AsAP papers for ASP team to have inspiration for architecture and instruction set.
++ Add AsAP papers for ASP team to have inspiration for architecture and instruction set.
 - Maybe FIFO for ASP team.
-- Put E2LP MP3 on project on git.
++ Put E2LP MP3 on project on git.

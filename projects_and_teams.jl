@@ -63,7 +63,9 @@ Implement Snake game on new fancy hardware.
 			""",
 			URL[
 				URL("http://www.gotronic.fr/pj-1313.pdf"),
-				URL("http://www.midondesign.com/Documents/4094BC.PDF")
+				URL("http://www.midondesign.com/Documents/4094BC.PDF"),
+				URL("E2LP.ucf"),
+				URL("P191R003_E2LP.PDF")
 			]
 		)
 	),
@@ -177,7 +179,9 @@ Implement Super Mario game on new platform.
 			""",
 			URL[
 				URL("http://www.rt-rk.uns.ac.rs/sites/default/files/sch_7-segment_display-2015-11-06-13-29-32_0.zip"),
-				URL("http://www.rt-rk.uns.ac.rs/sites/default/files/comb_logic-2015-11-06-15-34-01.zip")
+				URL("http://www.rt-rk.uns.ac.rs/sites/default/files/comb_logic-2015-11-06-15-34-01.zip"),
+				URL("E2LP.ucf"),
+				URL("P191R003_E2LP.PDF")
 			]
 		)
 	),
@@ -223,7 +227,8 @@ Use xapp529 PDF and it's projects as examples how FSL should be implemented.
 Upgrade Space Invaders game to use new higher bandwidth.
 			""",
 			URL[
-				URL("http://www.xilinx.com/support/documentation/application_notes/xapp529.pdf")
+				URL("http://www.xilinx.com/support/documentation/application_notes/xapp529.pdf"),
+				URL("http://github.com/jasaleja/LPRS2_projekat")
 			]
 		)
 	),
@@ -302,8 +307,7 @@ Remove indexing graphic mode with direct one.
 		Spec(
 			"??",
 			URL[
-				URL("??"),
-				URL("??")
+				URL("https://github.com/LPRS2/E2LP_Text_Mode_Tetris")
 			]
 		)
 	),
@@ -391,8 +395,7 @@ Remove from vga_periph_mem support for graphic mode, to free memory needed for M
 and add it to project.
 			""",
 			URL[
-				URL("??"),
-				URL("??")
+				URL("https://github.com/MilosSubotic/E2LP_MP3_Player.git")
 			]
 		)
 	),
@@ -420,7 +423,6 @@ and add it to project.
 		Spec(
 			"??",
 			URL[
-				URL("https://github.com/MilosSubotic/Config_CPU"),
 				URL("??")
 			]
 		)
@@ -475,7 +477,8 @@ Use AsAP as inspiration.
 			URL[
 				URL("https://github.com/MilosSubotic/Config_CPU"),
 				URL("https://en.wikipedia.org/wiki/Asynchronous_array_of_simple_processors"),
-				URL("http://vcl.ece.ucdavis.edu/")
+				URL("http://vcl.ece.ucdavis.edu/pubs/2006.08_hotchips/hotchips.baas.2006.07.25.1600.color.pdf"),
+				URL("http://vcl.ece.ucdavis.edu/pubs/2008.06.symp.vlsi/vlsi.2008.03.05.0215.pdf")
 			]
 		)
 	),
@@ -584,7 +587,9 @@ and upgrade software with support for complex 4-square shapes.
 	- Check [1] how approximately should controller protocol should work. 
 			""",
 			URL[
-				URL("https://www.cs.cmu.edu/~chuck/infopg/segasix.txt")
+				URL("https://www.cs.cmu.edu/~chuck/infopg/segasix.txt"),
+				URL("E2LP.ucf"),
+				URL("P191R003_E2LP.PDF")
 			]
 		)
 	)
