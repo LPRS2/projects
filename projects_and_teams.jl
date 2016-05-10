@@ -544,8 +544,7 @@ Fork Tetris project from last year
 and upgrade software with support for complex 4-square shapes.
 			""",
 			URL[
-				URL("??"),
-				URL("??")
+				URL("https://github.com/LPRS2/E2LP_Text_Mode_Tetris")
 			]
 		)
 	),
