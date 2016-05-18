@@ -108,7 +108,7 @@ Simple AXI peripheral with sampling RC-5 protocol.
 			""",
 			URL[
 				URL("http://www.sbprojects.com/knowledge/ir/rc5.php"),
-				URL("??")
+				URL("http://github.com/jasaleja/LPRS2_projekat")
 			]
 		)
 	),
