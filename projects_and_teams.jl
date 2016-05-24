@@ -571,19 +571,14 @@ and upgrade software with support for complex 4-square shapes.
 		),
 		Spec(
 			"""
-- Board with 3x CD4053 for muxing between two controllers.
+- Board with 2x 74HCT157 for muxing between two controllers.
 	- 7-bits data, GND and 5V to every controller.
-	- Jumper for inhibit.
+	- Jumper for ENABLE.
 	- Pull-down 10k for every data pin going to controllers.
 	- 2x 100 Ohm or similar small resistor protection to controllers.
-- Connect board to snap wire on E2LP:
-	- 7-bits data, one mux select.
-	- 5V and GND.
-	- E2LP.ucf
-- AXI GPIO:
-	- command from mux select
-	- Reverse engineering of data pins
-	- Check [1] how approximately should controller protocol should work. 
+	- Signals: 6-bits data, select, mux.
+	- 2x CD4504 level shifter from 5V TTL to 3V3 CMOS.
+	- Connect board to snap wire on E2LP
 			""",
 			URL[
 				URL("https://www.cs.cmu.edu/~chuck/infopg/segasix.txt"),
