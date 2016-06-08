@@ -100,7 +100,7 @@ Implement Snake game on new fancy hardware.
 					"maticmilica1912@gmail.com"
 				)
 			],
-			"https://github.com/markog001"
+			"https://github.com/maticmilica/SpaceInvadersRC5"
 		),
 		Spec(
 			"""
