@@ -19,15 +19,15 @@ type Spec
 end
 
 type Solution
-	repo::AbstractString
+	repo::URL
 	# Short youtube presentation.
-	youtube::AbstractString
+	youtube::URL
 	# download.bit HW+SW
 	# Could set URL to file in github master blob.
-	release_bit::AbstractString
+	release_bit::URL
 	# Short project documentation.
 	# Could set URL to file in github master blob.
-	doc::AbstractString
+	doc::URL
 end
 
 type Project
