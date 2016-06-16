@@ -10,7 +10,6 @@ end
 
 type Team
 	members::Vector{Student}
-	repo::AbstractString
 end
 
 typealias URL AbstractString
@@ -19,12 +18,25 @@ type Spec
 	resources::Vector{URL}
 end
 
+type Solution
+	repo::AbstractString
+	# Short youtube presentation.
+	youtube::AbstractString
+	# download.bit HW+SW
+	# Could set URL to file in github master blob.
+	release_bit::AbstractString
+	# Short project documentation.
+	# Could set URL to file in github master blob.
+	doc::AbstractString
+end
+
 type Project
 	name::AbstractString
 	points::Int
 	min_team_members::Int
 	team::Team
 	spec::Spec
+	solution::Solution
 end
 
 
@@ -49,8 +61,7 @@ projects = Project[
 					"RA-83/2013",
 					"igor.stefanovic94@gmail.com"
 				)
-			],
-			"https://github.com/lukicdarkoo/fpga-matrix-snake"
+			]
 		),
 		Spec(
 			"""
@@ -67,6 +78,12 @@ Implement Snake game on new fancy hardware.
 				URL("E2LP.ucf"),
 				URL("P191R003_E2LP.PDF")
 			]
+		),
+		Solution(
+			"https://github.com/lukicdarkoo/fpga-matrix-snake",
+			"??",
+			"??",
+			"??"
 		)
 	),
 	Project(
@@ -99,8 +116,7 @@ Implement Snake game on new fancy hardware.
 					"RA-96/2013",
 					"maticmilica1912@gmail.com"
 				)
-			],
-			"https://github.com/maticmilica/SpaceInvadersRC5"
+			]
 		),
 		Spec(
 			"""
@@ -110,6 +126,12 @@ Simple AXI peripheral with sampling RC-5 protocol.
 				URL("http://www.sbprojects.com/knowledge/ir/rc5.php"),
 				URL("http://github.com/jasaleja/LPRS2_projekat")
 			]
+		),
+		Solution(
+			"https://github.com/maticmilica/SpaceInvadersRC5",
+			"??",
+			"??",
+			"??"
 		)
 	),
 	Project(
@@ -130,8 +152,7 @@ Simple AXI peripheral with sampling RC-5 protocol.
 					"RA-28/2013",
 					"una.radosavac@gmail.com"
 				)
-			],
-			"https://github.com/eleonnora/project"
+			]
 		),
 		Spec(
 			"""
@@ -141,6 +162,12 @@ Implement Super Mario game on new platform.
 			URL[
 				URL("https://github.com/RELJEF/battle_city_fpga")
 			]
+		),
+		Solution(
+			"https://github.com/eleonnora/project",
+			"??",
+			"??",
+			"??"
 		)
 	),
 	Project(
@@ -161,8 +188,7 @@ Implement Super Mario game on new platform.
 					"RA-?225/2013",
 					"wizizic@icloud.com"
 				)
-			],
-			"https://github.com/milosnikolic93/lprs2-projekat"
+			]
 		),
 		Spec(
 			"""
@@ -183,6 +209,12 @@ Implement Super Mario game on new platform.
 				URL("E2LP.ucf"),
 				URL("P191R003_E2LP.PDF")
 			]
+		),
+		Solution(
+			"https://github.com/milosnikolic93/lprs2-projekat",
+			"??",
+			"??",
+			"??"
 		)
 	),
 	Project(
@@ -216,8 +248,7 @@ Implement Super Mario game on new platform.
 					"urosko123@gmail.com"
 				)
 				
-			],
-			"https://github.com/MarkoMajkic/LPRS2_Project.git"
+			]
 		),
 		Spec(
 			"""
@@ -230,6 +261,12 @@ Upgrade Space Invaders game to use new higher bandwidth.
 				URL("http://www.xilinx.com/support/documentation/application_notes/xapp529.pdf"),
 				URL("http://github.com/jasaleja/LPRS2_projekat")
 			]
+		),
+		Solution(
+			"https://github.com/MarkoMajkic/LPRS2_Project.git",
+			"??",
+			"??",
+			"??"
 		)
 	),
 	Project(
@@ -262,8 +299,7 @@ Upgrade Space Invaders game to use new higher bandwidth.
 					"RA-64 /2013",
 					"thedushn@email.com"
 				)
-			],
-			"https://github.com/?/?"
+			]
 		),
 		Spec(
 			"""
@@ -275,6 +311,12 @@ Remove indexing graphic mode with direct one.
 				URL("??"),
 				URL("??")
 			]
+		),
+		Solution(
+			"https://github.com/?/?",
+			"??",
+			"??",
+			"??"
 		)
 	),
 	Project(
@@ -301,14 +343,19 @@ Remove indexing graphic mode with direct one.
  					"RA-187/2011",
  					"aleksandar1321@gmail.com"
   				)
-			],
-			"https://github.com/?/?"
+			]
 		),
 		Spec(
 			"??",
 			URL[
 				URL("https://github.com/LPRS2/E2LP_Text_Mode_Tetris")
 			]
+		),
+		Solution(
+			"https://github.com/?/?",
+			"??",
+			"??",
+			"??"
 		)
 	),
 	Project(
@@ -341,8 +388,7 @@ Remove indexing graphic mode with direct one.
 					"RA-184/2013",
 					"nemanjap555@gmail.com"
 				)
-			],
-			"https://github.com/boza94/?"
+			]
 		),
 		Spec(
 			"""
@@ -353,6 +399,12 @@ Use AXI Timer for generating PWM or design custom PWM HW peripheral.
 				URL("http://avrprog.pbworks.com/w/page/9345379/AvrSound"),
 				URL("??")
 			]
+		),
+		Solution(
+			"https://github.com/boza94/?",
+			"??",
+			"??",
+			"??"
 		)
 	),
 	Project(
@@ -385,8 +437,7 @@ Use AXI Timer for generating PWM or design custom PWM HW peripheral.
 					"RA-248/2013",
 					"kraguljbosko16@gmail.com"
 				)
-			],
-			"https://github.com/223323/mp3player"
+			]
 		),
 		Spec(
 			"""
@@ -397,6 +448,12 @@ and add it to project.
 			URL[
 				URL("https://github.com/MilosSubotic/E2LP_MP3_Player.git")
 			]
+		),
+		Solution(
+			"https://github.com/223323/mp3player",
+			"??",
+			"??",
+			"??"
 		)
 	),
 	Project(
@@ -417,14 +474,19 @@ and add it to project.
 					"RA-???/20??",
 					"?@?"
 				)
-			],
-			"https://github.com/?/?"
+			]
 		),
 		Spec(
 			"??",
 			URL[
 				URL("??")
 			]
+		),
+		Solution(
+			"https://github.com/?/?",
+			"??",
+			"??",
+			"??"
 		)
 	),
 	Project(
@@ -457,8 +519,7 @@ and add it to project.
 					"RA-136/2013",
 					"m.mariyanna@hotmail.com"
 				)
-			],
-			"https://github.com/authext/LPRS2-Project"
+			]
 		),
 		Spec(
 			"""
@@ -480,6 +541,12 @@ Use AsAP as inspiration.
 				URL("http://vcl.ece.ucdavis.edu/pubs/2006.08_hotchips/hotchips.baas.2006.07.25.1600.color.pdf"),
 				URL("http://vcl.ece.ucdavis.edu/pubs/2008.06.symp.vlsi/vlsi.2008.03.05.0215.pdf")
 			]
+		),
+		Solution(
+			"https://github.com/authext/LPRS2-Project",
+			"??",
+			"??",
+			"??"
 		)
 	),
 	Project(
@@ -500,8 +567,7 @@ Use AsAP as inspiration.
 					"RA-???/20??",
 					"?@?"
 				)
-			],
-			"https://github.com/?/?"
+			]
 		),
 		Spec(
 			"??",
@@ -509,6 +575,12 @@ Use AsAP as inspiration.
 				URL("??"),
 				URL("??")
 			]
+		),
+		Solution(
+			"https://github.com/?/?",
+			"??",
+			"??",
+			"??"
 		)
 	),
 	Project(
@@ -535,8 +607,7 @@ Use AsAP as inspiration.
 					"RA-104/2013",
 					"djordje.stojanovic94@gmail.com"
 				)
-			],
-			"https://github.com/Andrmoljac/?"
+			]
 		),
 		Spec(
 			"""
@@ -546,6 +617,12 @@ and upgrade software with support for complex 4-square shapes.
 			URL[
 				URL("https://github.com/LPRS2/E2LP_Text_Mode_Tetris")
 			]
+		),
+		Solution(
+			"https://github.com/Andrmoljac/?",
+			"??",
+			"??",
+			"??"
 		)
 	),
 	Project(
@@ -566,8 +643,7 @@ and upgrade software with support for complex 4-square shapes.
 					"RA-34/2011",
 					"davidujhazi@yahoo.com"
 				)
-			],
-			"https://github.com/isidorr3/projekatLPRS2"
+			]
 		),
 		Spec(
 			"""
@@ -585,6 +661,12 @@ and upgrade software with support for complex 4-square shapes.
 				URL("E2LP.ucf"),
 				URL("P191R003_E2LP.PDF")
 			]
+		),
+		Solution(
+			"https://github.com/isidorr3/projekatLPRS2",
+			"??",
+			"??",
+			"??"
 		)
 	)
 ]
