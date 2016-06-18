@@ -313,7 +313,7 @@ Remove indexing graphic mode with direct one.
 			]
 		),
 		Solution(
-			"https://github.com/?/?",
+			"https://github.com/suncicam/MinesweeperProjekatLPRS2",
 			"??",
 			"??",
 			"??"
