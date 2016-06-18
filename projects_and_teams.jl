@@ -352,10 +352,10 @@ Remove indexing graphic mode with direct one.
 			]
 		),
 		Solution(
-			"https://github.com/?/?",
-			"??",
-			"??",
-			"??"
+			"https://github.com/Nevernik/dr_Mario_E2LP",
+			"https://www.youtube.com/watch?v=orRhGIP8fZ0",
+			"https://github.com/Nevernik/dr_Mario_E2LP/blob/master/___project_data/dr_mario.bit",
+			"https://github.com/Nevernik/dr_Mario_E2LP/blob/master/___project_data/projekat%20Dr%20Mario.docx"
 		)
 	),
 	Project(
