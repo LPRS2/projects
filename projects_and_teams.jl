@@ -348,11 +348,14 @@ Remove indexing graphic mode with direct one.
 		Spec(
 			"??",
 			URL[
-				URL("https://github.com/LPRS2/E2LP_Text_Mode_Tetris")
+				URL("https://github.com/LPRS2/E2LP_Text_Mode_Tetris"),
+				URL("https://www.youtube.com/watch?v=orRhGIP8fZ0"),
+				URL("https://github.com/alex1321/DR_MARIO_GAME/blob/master/projekat-Dr-Mario.docx"),
+				URL("https://github.com/alex1321/DR_MARIO_GAME/blob/master/dr_mario.bit")
 			]
 		),
 		Solution(
-			"https://github.com/?/?",
+			"https://github.com/alex1321/DR_MARIO_GAME",
 			"??",
 			"??",
 			"??"
