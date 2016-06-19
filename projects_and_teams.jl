@@ -185,8 +185,14 @@ Implement Super Mario game on new platform.
 				Student(
 					"Lidia",
 					"Zizic",
-					"RA-?225/2013",
+					"RA-225/2013",
 					"wizizic@icloud.com"
+				),
+				Student(
+					"Petar",
+					"Latas",
+					"RA-226/2013",
+					"petarlatas@gmail.com"
 				)
 			]
 		),
