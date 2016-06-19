@@ -407,9 +407,9 @@ Use AXI Timer for generating PWM or design custom PWM HW peripheral.
 			]
 		),
 		Solution(
-			"https://github.com/boza94/?",
-			"??",
-			"??",
+			"https://github.com/boza94/pizeo_buzz",
+			"https://www.youtube.com/watch?v=uiEljBH_Y2Y&feature=youtu.be",
+			"https://drive.google.com/file/d/0B1uyOARlwCwgVjVuUUhSWWExRWs/view?usp=sharing",
 			"??"
 		)
 	),
