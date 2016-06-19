@@ -195,6 +195,10 @@ Implement Super Mario game on new platform.
 					"petarlatas@gmail.com"
 				)
 			]
+			URL[
+				URL("https://github.com/milosnikolic93/LPRS2projekat-7SegmentLEDtimer"),
+				URL("https://www.youtube.com/watch?v=9rlW1k6Tu-k")
+			]
 		),
 		Spec(
 			"""
