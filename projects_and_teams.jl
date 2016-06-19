@@ -625,10 +625,10 @@ and upgrade software with support for complex 4-square shapes.
 			]
 		),
 		Solution(
-			"https://github.com/Andrmoljac/?",
-			"??",
-			"??",
-			"??"
+			"https://github.com/Andrmoljac/Tetris_Upgrade",
+			"https://www.youtube.com/watch?v=c9YafEVzZxE",
+			"https://github.com/Andrmoljac/Tetris_Upgrade/blob/master/lab4_i_5/Resenje/basic_system/Tetris_Upgrade.bit",
+			"https://github.com/Andrmoljac/Tetris_Upgrade/blob/master/lab4_i_5/Resenje/basic_system/dokumentacija-lprs2.docx"
 		)
 	),
 	Project(
