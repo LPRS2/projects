@@ -269,9 +269,9 @@ Upgrade Space Invaders game to use new higher bandwidth.
 			]
 		),
 		Solution(
-			"https://github.com/MarkoMajkic/LPRS2_Project.git",
+			"https://github.com/MarkoMajkic/LPRS2_Space_Invaders_FSL",
 			"??",
-			"??",
+			"https://github.com/MarkoMajkic/LPRS2_Space_Invaders_FSL/blob/master/SpaceInvadersFSL.bit",
 			"??"
 		)
 	),
