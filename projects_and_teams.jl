@@ -550,28 +550,28 @@ and add it to project.
 					"Pavlović",
 					"RA-151/2013",
 					"wolf.srb.ns@hotmail.com",
-					-1
+					45
 				),
 				Student(
 					"Andrej",
 					"Popović",
 					"RA-113/2013",
 					"andypopa94@gmail.com",
-					-1
+					45
 				),
 				Student(
 					"Nataša",
 					"Perković",
 					"RA-137/2013",
 					"perkovicnatasa94@gmail.com",
-					-1
+					45
 				),
 				Student(
 					"Marijana",
 					"Molnar",
 					"RA-136/2013",
 					"m.mariyanna@hotmail.com",
-					-1
+					45
 				)
 			]
 		),
@@ -599,10 +599,10 @@ Use AsAP as inspiration.
 		Solution(
 			"https://github.com/authext/LPRS2-Project",
 			"https://www.youtube.com/watch?v=8EY1ofh3xYc",
-			"??",
+			"https://github.com/authext/LPRS2-Project/blob/master/LPRS2_doc.docx",
 			"??"
 		),
-		false
+		true
 	),
 	Project(
 		"CAN network – game of choice",
