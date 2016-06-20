@@ -728,9 +728,9 @@ and upgrade software with support for complex 4-square shapes.
 		),
 		Solution(
 			"https://github.com/isidorr3/projekatLPRS2",
-			"??",
-			"??",
-			"??"
+			"https://www.youtube.com/watch?v=4VwzyuCIvpM",
+			"https://github.com/isidorr3/projekatLPRS2/blob/master/Battle-City-with-Joystick-Projekat-LPRS2.docx",
+			"https://github.com/isidorr3/projekatLPRS2/blob/master/battle_city_sega_joysticks.bit"
 		),
 		false
 	)
