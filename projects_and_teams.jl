@@ -460,28 +460,28 @@ Use AXI Timer for generating PWM or design custom PWM HW peripheral.
 					"Blažić",
 					"RA-170/2013",
 					"nblazic942@gmail.com",
-					-1
+					45
 				),
 				Student(
 					"Aleksandar",
 					"Cumbo",
 					"RA-186/2013",
 					"aco.cumbo@hotmail.com",
-					-1
+					40
 				),
 				Student(
 					"Aleksandar",
 					"Lukić",
 					"RA-139/2011",
 					"lukicsu@gmail.com",
-					-1
+					45
 				),
 				Student(
 					"Boško",
 					"Kragulj",
 					"RA-248/2013",
 					"kraguljbosko16@gmail.com",
-					-1
+					45
 				)
 			]
 		),
@@ -501,7 +501,7 @@ and add it to project.
 			"-",
 			"https://github.com/223323/E2LP_MP3_Player/blob/master/Predmetni%20projekat%20LPRS%202.docx?raw=true"
 		),
-		false
+		true
 	),
 	Project(
 		"Bilinear Interpolation Co-processor",
