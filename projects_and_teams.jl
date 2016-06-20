@@ -38,6 +38,7 @@ type Project
 	team::Team
 	spec::Spec
 	solution::Solution
+	done::Bool
 end
 
 
@@ -55,14 +56,14 @@ projects = Project[
 					"Lukić",
 					"RA-117/2013",
 					"lukicdarkoo@gmail.com",
-					-1
+					45
 				),
 				Student(
 					"Igor",
 					"Stefanović",
 					"RA-83/2013",
 					"igor.stefanovic94@gmail.com",
-					-1
+					45
 				)
 			]
 		),
@@ -87,7 +88,8 @@ Implement Snake game on new fancy hardware.
 			"??",
 			"??",
 			"??"
-		)
+		),
+		true
 	),
 	Project(
 		"IR Controller – integrate to some game",
@@ -139,7 +141,8 @@ Simple AXI peripheral with sampling RC-5 protocol.
 			"https://www.youtube.com/watch?v=hJYfN6_-DKI",
 			"https://github.com/maticmilica/SpaceInvadersRC5/blob/master/IR_RC_Space_Invaders.bit",
 			"https://github.com/maticmilica/SpaceInvadersRC5/blob/master/IR%20Controller%20.docx"
-		)
+		),
+		true
 	),
 	Project(
 		"Sega GPU – Super Mario",
