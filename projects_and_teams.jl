@@ -406,28 +406,28 @@ Remove indexing graphic mode with direct one.
 					"Bozic",
 					"RA-90/2013",
 					"lazarovmejl@yahoo.com",
-					-1
+					45
 				),
 				Student(
 					"Milan",
 					"Ivankovic",
 					"RA-89/2013",
 					"ivankovic_milan@yahoo.com",
-					-1
+					45
 				),
 				Student(
 					"Branislav",
 					"Vukovic",
 					"RA-88/2013",
 					"vukovic.94@hotmail.com",
-					-1
+					45
 				),
 				Student(
 					"Nemanja",
 					"Pajic",
 					"RA-184/2013",
 					"nemanjap555@gmail.com",
-					-1
+					45
 				)
 			]
 		),
@@ -447,7 +447,7 @@ Use AXI Timer for generating PWM or design custom PWM HW peripheral.
 			"https://github.com/boza94/pizeo_buzz/blob/master/LPRS2-MIDI-Player-with-buzzer-dokumentacija.docx",
 			"https://github.com/boza94/pizeo_buzz/blob/master/midi_piezo_buzzer.bit"
 		),
-		false
+		true
 	),
 	Project(
 		"MP3 Player with text UI",
