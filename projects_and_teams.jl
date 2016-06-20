@@ -698,14 +698,14 @@ and upgrade software with support for complex 4-square shapes.
 					"Rimski",
 					"RA-115/2012",
 					"isidor.r3@gmail.com",
-					-1
+					45
 				),
 				Student(
 					"David",
 					"Ujhzi",
 					"RA-34/2011",
 					"davidujhazi@yahoo.com",
-					-1
+					45
 				)
 			]
 		),
@@ -732,7 +732,7 @@ and upgrade software with support for complex 4-square shapes.
 			"https://github.com/isidorr3/projekatLPRS2/blob/master/Battle-City-with-Joystick-Projekat-LPRS2.docx",
 			"https://github.com/isidorr3/projekatLPRS2/blob/master/battle_city_sega_joysticks.bit"
 		),
-		false
+		true
 	)
 ]
 
