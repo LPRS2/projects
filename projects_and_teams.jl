@@ -180,7 +180,8 @@ Implement Super Mario game on new platform.
 			"https://www.youtube.com/watch?v=jrztl2hGDFU",
 			"https://github.com/Una13/super_mario/blob/master/SuperMario.docx",
 			"https://github.com/Una13/super_mario/blob/master/battle_city_design/Super_Mario.bit"
-		)
+		),
+		true
 	),
 	Project(
 		"7-Segment LED timer",
@@ -236,7 +237,8 @@ Implement Super Mario game on new platform.
 			"??",
 			"??",
 			"??"
-		)
+		),
+		false
 	),
 	Project(
 		"16-colors index VGA over FSL bus – upgrade Space Invaders",
@@ -292,7 +294,8 @@ Upgrade Space Invaders game to use new higher bandwidth.
 			"??",
 			"??",
 			"??"
-		)
+		),
+		false
 	),
 	Project(
 		"320x240 9-bit RGB VGA – Minesweeper",
@@ -346,7 +349,8 @@ Remove indexing graphic mode with direct one.
 			"??",
 			"??",
 			"??"
-		)
+		),
+		false
 	),
 	Project(
 		"4-color text mode – Doctor Mario",
@@ -388,7 +392,8 @@ Remove indexing graphic mode with direct one.
 			"https://www.youtube.com/watch?v=orRhGIP8fZ0",
 			"https://github.com/Nevernik/dr_Mario_E2LP/blob/master/___project_data/dr_mario.bit",
 			"https://github.com/Nevernik/dr_Mario_E2LP/blob/master/___project_data/projekat%20Dr%20Mario.docx"
-		)
+		),
+		false
 	),
 	Project(
 		"MIDI Player with buzzer",
@@ -441,7 +446,8 @@ Use AXI Timer for generating PWM or design custom PWM HW peripheral.
 			"??",
 			"??",
 			"??"
-		)
+		),
+		false
 	),
 	Project(
 		"MP3 Player with text UI",
@@ -494,7 +500,8 @@ and add it to project.
 			"??",
 			"??",
 			"??"
-		)
+		),
+		false
 	),
 	Project(
 		"Bilinear Interpolation Co-processor",
@@ -529,7 +536,8 @@ and add it to project.
 			"??",
 			"??",
 			"??"
-		)
+		),
+		false
 	),
 	Project(
 		"Array of simple processors – Shelving Audio Equilizer",
@@ -593,7 +601,8 @@ Use AsAP as inspiration.
 			"https://www.youtube.com/watch?v=8EY1ofh3xYc",
 			"??",
 			"??"
-		)
+		),
+		false
 	),
 	Project(
 		"CAN network – game of choice",
@@ -629,7 +638,8 @@ Use AsAP as inspiration.
 			"??",
 			"??",
 			"??"
-		)
+		),
+		false
 	),
 	Project(
 		"Tetris – upgrade",
@@ -674,7 +684,8 @@ and upgrade software with support for complex 4-square shapes.
 			"https://www.youtube.com/watch?v=c9YafEVzZxE",
 			"https://github.com/Andrmoljac/Tetris_Upgrade/blob/master/lab4_i_5/Resenje/basic_system/Tetris_Upgrade.bit",
 			"https://github.com/Andrmoljac/Tetris_Upgrade/blob/master/lab4_i_5/Resenje/basic_system/dokumentacija-lprs2.docx"
-		)
+		),
+		false
 	),
 	Project(
 		"Sega controller – integrate to some game",
@@ -720,7 +731,8 @@ and upgrade software with support for complex 4-square shapes.
 			"??",
 			"??",
 			"??"
-		)
+		),
+		false
 	)
 ]
 
