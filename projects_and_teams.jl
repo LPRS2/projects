@@ -728,7 +728,7 @@ and upgrade software with support for complex 4-square shapes.
 		),
 		Solution(
 			"https://github.com/isidorr3/projekatLPRS2",
-			"??",
+			"https://www.youtube.com/watch?v=4VwzyuCIvpM",
 			"??",
 			"??"
 		),
