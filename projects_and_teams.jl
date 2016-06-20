@@ -736,6 +736,10 @@ and upgrade software with support for complex 4-square shapes.
 	)
 ]
 
+additional = URL[
+	"https://scontent-vie1-1.xx.fbcdn.net/v/l/t1.0-9/13502065_1148717698525627_1747866040367180828_n.jpg?oh=10befb12e2527104db88d56c6019f86b&oe=57E81CBE"
+]
+
 ###############################################################################
 
 function no_of_students(project::Project)
