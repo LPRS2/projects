@@ -251,28 +251,28 @@ Implement Super Mario game on new platform.
 					"Majkić",
 					"RA-116/2012",
 					"majkic@live.com",
-					-1
+					43
 				),
 				Student(
 					"Stanko",
 					"Ćućuz",
 					"RA-93/2013",
 					"stankocucuz2@gmail.com",
-					-1
+					43
 				),
 				Student(
 					"Milan",
 					"Novaković",
 					"RA-85/2013",
 					"milan94bp@gmail.com",
-					-1
+					42
 				),
 				Student(
 					"Uroš",
 					"Višekruna",
 					"RA-84/2013",
 					"urosko123@gmail.com",
-					-1
+					40
 				)
 				
 			]
