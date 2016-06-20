@@ -195,6 +195,12 @@ Implement Super Mario game on new platform.
 					"petarlatas@gmail.com"
 				)
 			]
+		Solution(
+			"https://github.com/milosnikolic93/LPRS2projekat-7SegmentLEDtimer/tree/master/XPS_system",
+			"https://www.youtube.com/watch?v=9rlW1k6Tu-k",
+			"",
+			"https://github.com/milosnikolic93/LPRS2projekat-7SegmentLEDtimer/blob/master/LPRS2projekat-7SegmentLEDtimer.docx"
+		),
 		),
 		Spec(
 			"""
