@@ -165,7 +165,7 @@ Implement Super Mario game on new platform.
 		),
 		Solution(
 			"https://github.com/Una13/super_mario",
-			"??",
+			"https://github.com/Una13/super_mario/blob/master/SuperMario.docx",
 			"??",
 			"??"
 		)
