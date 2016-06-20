@@ -550,7 +550,7 @@ Use AsAP as inspiration.
 		),
 		Solution(
 			"https://github.com/authext/LPRS2-Project",
-			"??",
+			"https://www.youtube.com/watch?v=8EY1ofh3xYc",
 			"??",
 			"??"
 		)
