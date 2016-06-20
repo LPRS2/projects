@@ -81,9 +81,9 @@ Implement Snake game on new fancy hardware.
 		),
 		Solution(
 			"https://github.com/lukicdarkoo/fpga-matrix-snake",
-			"??",
-			"??",
-			"??"
+			"https://www.youtube.com/watch?v=AMLDNoyo0_Q",
+			"https://github.com/lukicdarkoo/fpga-matrix-snake/blob/master/RGB_LED_Snake.bit",
+			"https://github.com/lukicdarkoo/fpga-matrix-snake/blob/master/Dokumentacija.odt"
 		)
 	),
 	Project(
