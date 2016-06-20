@@ -6,6 +6,7 @@ type Student
 	surname::AbstractString
 	index::AbstractString
 	email::AbstractString
+	points::Int
 end
 
 type Team
@@ -53,13 +54,15 @@ projects = Project[
 					"Darko",
 					"Lukić",
 					"RA-117/2013",
-					"lukicdarkoo@gmail.com"
+					"lukicdarkoo@gmail.com",
+					-1
 				),
 				Student(
 					"Igor",
 					"Stefanović",
 					"RA-83/2013",
-					"igor.stefanovic94@gmail.com"
+					"igor.stefanovic94@gmail.com",
+					-1
 				)
 			]
 		),
@@ -96,25 +99,29 @@ Implement Snake game on new fancy hardware.
 					"Damir",
 					"Becirbasic",
 					"RA-68/2013",
-					"dmrbecirbasic22@gmail.com"
+					"dmrbecirbasic22@gmail.com",
+					-1
 				),
 				Student(
 					"Milos",
 					"Pranjkic",
 					"RA-76/2013",
-					"pranjkic94@gmail.com"
+					"pranjkic94@gmail.com",
+					-1
 				),
 				Student(
 					"Marko",
 					"Gostovic",
 					"RA-77/2013",
-					"markog.1994@gmail.com"
+					"markog.1994@gmail.com",
+					-1
 				),
 				Student(
 					"Milica",
 					"Matic",
 					"RA-96/2013",
-					"maticmilica1912@gmail.com"
+					"maticmilica1912@gmail.com",
+					-1
 				)
 			]
 		),
@@ -144,13 +151,15 @@ Simple AXI peripheral with sampling RC-5 protocol.
 					"Eleonora",
 					"Nan",
 					"RA-180/2013",
-					"nan.eleonora@gmail.com"
+					"nan.eleonora@gmail.com",
+					-1
 				),
 				Student(
 					"Una",
 					"Radosavac",
 					"RA-28/2013",
-					"una.radosavac@gmail.com"
+					"una.radosavac@gmail.com",
+					-1
 				)
 			]
 		),
@@ -180,19 +189,22 @@ Implement Super Mario game on new platform.
 					"Milos",
 					"Nikolic",
 					"RA-207/2012",
-					"milos.nik.93@gmail.com"
+					"milos.nik.93@gmail.com",
+					-1
 				),
 				Student(
 					"Lidia",
 					"Zizic",
 					"RA-225/2013",
-					"wizizic@icloud.com"
+					"wizizic@icloud.com",
+					-1
 				),
 				Student(
 					"Petar",
 					"Latas",
 					"RA-226/2013",
-					"petarlatas@gmail.com"
+					"petarlatas@gmail.com",
+					-1
 				)
 			]
 		),
@@ -233,25 +245,29 @@ Implement Super Mario game on new platform.
 					"Marko",
 					"Majkić",
 					"RA-116/2012",
-					"majkic@live.com"
+					"majkic@live.com",
+					-1
 				),
 				Student(
 					"Stanko",
 					"Ćućuz",
 					"RA-93/2013",
-					"stankocucuz2@gmail.com"
+					"stankocucuz2@gmail.com",
+					-1
 				),
 				Student(
 					"Milan",
 					"Novaković",
 					"RA-85/2013",
-					"milan94bp@gmail.com"
+					"milan94bp@gmail.com",
+					-1
 				),
 				Student(
 					"Uroš",
 					"Višekruna",
 					"RA-84/2013",
-					"urosko123@gmail.com"
+					"urosko123@gmail.com",
+					-1
 				)
 				
 			]
@@ -285,25 +301,29 @@ Upgrade Space Invaders game to use new higher bandwidth.
 					"Sunčica",
 					"Milivojša",
 					"RA-27/2013",
-					"suncicam@neobee.net"
+					"suncicam@neobee.net",
+					-1
 				),
 				Student(
 					"Sandra",
 					"Ivanović",
 					"RA-46/2013",
-					"sivanovic17@gmail.com"
+					"sivanovic17@gmail.com",
+					-1
 				),
 				Student(
 					"Tatjana",
 					"Erić",
 					"RA-207/2013",
-					"tanjchy0304@gmail.com"
+					"tanjchy0304@gmail.com",
+					-1
 				),
 				Student(
 					"Dušan",
 					"Mitrović",
 					"RA-64 /2013",
-					"thedushn@email.com"
+					"thedushn@email.com",
+					-1
 				)
 			]
 		),
@@ -335,19 +355,22 @@ Remove indexing graphic mode with direct one.
 					"Boris",
 					"Tesic",
 					"RA-198/2011",
- 					"btesic@gmail.com"
+ 					"btesic@gmail.com",
+					-1
   				),
   				Student(
  					"Stefan",
  					"Stojanovic",
  					"RA-16/2013",
- 					"stefann.stojanovic@gmail.com"
+ 					"stefann.stojanovic@gmail.com",
+					-1
  				),
  				Student(
  					"Aleksandar",
  					"Tanaskovic",
  					"RA-187/2011",
- 					"aleksandar1321@gmail.com"
+ 					"aleksandar1321@gmail.com",
+					-1
   				)
 			]
 		),
@@ -374,25 +397,29 @@ Remove indexing graphic mode with direct one.
 					"Lazar",
 					"Bozic",
 					"RA-90/2013",
-					"lazarovmejl@yahoo.com"
+					"lazarovmejl@yahoo.com",
+					-1
 				),
 				Student(
 					"Milan",
 					"Ivankovic",
 					"RA-89/2013",
-					"ivankovic_milan@yahoo.com"
+					"ivankovic_milan@yahoo.com",
+					-1
 				),
 				Student(
 					"Branislav",
 					"Vukovic",
 					"RA-88/2013",
-					"vukovic.94@hotmail.com"
+					"vukovic.94@hotmail.com",
+					-1
 				),
 				Student(
 					"Nemanja",
 					"Pajic",
 					"RA-184/2013",
-					"nemanjap555@gmail.com"
+					"nemanjap555@gmail.com",
+					-1
 				)
 			]
 		),
@@ -423,25 +450,29 @@ Use AXI Timer for generating PWM or design custom PWM HW peripheral.
 					"Nikola",
 					"Blažić",
 					"RA-170/2013",
-					"nblazic942@gmail.com"
+					"nblazic942@gmail.com",
+					-1
 				),
 				Student(
 					"Aleksandar",
 					"Cumbo",
 					"RA-186/2013",
-					"aco.cumbo@hotmail.com"
+					"aco.cumbo@hotmail.com",
+					-1
 				),
 				Student(
 					"Aleksandar",
 					"Lukić",
 					"RA-139/2011",
-					"lukicsu@gmail.com"
+					"lukicsu@gmail.com",
+					-1
 				),
 				Student(
 					"Boško",
 					"Kragulj",
 					"RA-248/2013",
-					"kraguljbosko16@gmail.com"
+					"kraguljbosko16@gmail.com",
+					-1
 				)
 			]
 		),
@@ -472,13 +503,15 @@ and add it to project.
 					"??",
 					"??",
 					"RA-???/20??",
-					"?@?"
+					"?@?",
+					-1
 				),
 				Student(
 					"??",
 					"??",
 					"RA-???/20??",
-					"?@?"
+					"?@?",
+					-1
 				)
 			]
 		),
@@ -505,25 +538,29 @@ and add it to project.
 					"Aleksandar-Vuk",
 					"Pavlović",
 					"RA-151/2013",
-					"wolf.srb.ns@hotmail.com"
+					"wolf.srb.ns@hotmail.com",
+					-1
 				),
 				Student(
 					"Andrej",
 					"Popović",
 					"RA-113/2013",
-					"andypopa94@gmail.com"
+					"andypopa94@gmail.com",
+					-1
 				),
 				Student(
 					"Nataša",
 					"Perković",
 					"RA-137/2013",
-					"perkovicnatasa94@gmail.com"
+					"perkovicnatasa94@gmail.com",
+					-1
 				),
 				Student(
 					"Marijana",
 					"Molnar",
 					"RA-136/2013",
-					"m.mariyanna@hotmail.com"
+					"m.mariyanna@hotmail.com",
+					-1
 				)
 			]
 		),
@@ -565,13 +602,15 @@ Use AsAP as inspiration.
 					"??",
 					"??",
 					"RA-???/20??",
-					"?@?"
+					"?@?",
+					-1
 				),
 				Student(
 					"??",
 					"??",
 					"RA-???/20??",
-					"?@?"
+					"?@?",
+					-1
 				)
 			]
 		),
@@ -599,19 +638,22 @@ Use AsAP as inspiration.
 					"Milos",
 					"Andric",
 					"RA-175/2013",
-					"andrmoljac@gmail.com"
+					"andrmoljac@gmail.com",
+					-1
 				),
 				Student(
 					"Ivan",
 					"Lazarevic",
 					"RA-9/2013",
-					"ivanlazarevic1994@gmail.com"
+					"ivanlazarevic1994@gmail.com",
+					-1
 				),
 				Student(
 					"Djordje",
 					"Stojanovic",
 					"RA-104/2013",
-					"djordje.stojanovic94@gmail.com"
+					"djordje.stojanovic94@gmail.com",
+					-1
 				)
 			]
 		),
@@ -641,13 +683,15 @@ and upgrade software with support for complex 4-square shapes.
 					"Isidor",
 					"Rimski",
 					"RA-115/2012",
-					"isidor.r3@gmail.com"
+					"isidor.r3@gmail.com",
+					-1
 				),
 				Student(
 					"David",
 					"Ujhzi",
 					"RA-34/2011",
-					"davidujhazi@yahoo.com"
+					"davidujhazi@yahoo.com",
+					-1
 				)
 			]
 		),
