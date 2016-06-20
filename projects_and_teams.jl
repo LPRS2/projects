@@ -408,7 +408,7 @@ Use AXI Timer for generating PWM or design custom PWM HW peripheral.
 		),
 		Solution(
 			"https://github.com/boza94/pizeo_buzz",
-			"https://www.youtube.com/watch?v=uiEljBH_Y2Y&feature=youtu.be",
+			"https://www.youtube.com/watch?v=vkQQufYCMwQ&feature=youtu.be",
 			"https://github.com/boza94/pizeo_buzz/blob/master/LPRS2-MIDI-Player-with-buzzer-dokumentacija.docx",
 			"https://github.com/boza94/pizeo_buzz/blob/master/midi_piezo_buzzer.bit"
 		)
