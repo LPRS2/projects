@@ -308,28 +308,28 @@ Upgrade Space Invaders game to use new higher bandwidth.
 					"Milivojša",
 					"RA-27/2013",
 					"suncicam@neobee.net",
-					-1
+					45
 				),
 				Student(
 					"Sandra",
 					"Ivanović",
 					"RA-46/2013",
 					"sivanovic17@gmail.com",
-					-1
+					45
 				),
 				Student(
 					"Tatjana",
 					"Erić",
 					"RA-207/2013",
 					"tanjchy0304@gmail.com",
-					-1
+					45
 				),
 				Student(
 					"Dušan",
 					"Mitrović",
 					"RA-64 /2013",
 					"thedushn@email.com",
-					-1
+					45
 				)
 			]
 		),
@@ -350,7 +350,7 @@ Remove indexing graphic mode with direct one.
 			"https://github.com/suncicam/MinesweeperProjekatLPRS2/blob/master/doc1.docx",
 			"https://github.com/suncicam/MinesweeperProjekatLPRS2/blob/master/minesweeper.bit"
 		),
-		false
+		true
 	),
 	Project(
 		"4-color text mode – Doctor Mario",
