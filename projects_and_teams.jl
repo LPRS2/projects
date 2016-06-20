@@ -346,9 +346,9 @@ Remove indexing graphic mode with direct one.
 		),
 		Solution(
 			"https://github.com/suncicam/MinesweeperProjekatLPRS2",
-			"??",
-			"??",
-			"??"
+			"https://www.youtube.com/watch?v=huqGv9YF13E",
+			"https://github.com/suncicam/MinesweeperProjekatLPRS2/blob/master/doc1.docx",
+			"https://github.com/suncicam/MinesweeperProjekatLPRS2/blob/master/minesweeper.bit"
 		),
 		false
 	),
