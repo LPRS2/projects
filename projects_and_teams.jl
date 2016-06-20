@@ -501,7 +501,7 @@ and add it to project.
 			"-",
 			"https://github.com/223323/E2LP_MP3_Player/blob/master/Predmetni%20projekat%20LPRS%202.docx?raw=true"
 		),
-		false
+		true
 	),
 	Project(
 		"Bilinear Interpolation Co-processor",
