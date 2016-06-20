@@ -496,10 +496,10 @@ and add it to project.
 			]
 		),
 		Solution(
-			"https://github.com/223323/mp3player",
-			"??",
-			"??",
-			"??"
+			"https://github.com/223323/E2LP_MP3_Player",
+			"https://www.youtube.com/watch?v=iBDg16AzZVY",
+			"-",
+			"https://github.com/223323/E2LP_MP3_Player/blob/master/Predmetni%20projekat%20LPRS%202.docx?raw=true"
 		),
 		false
 	),
