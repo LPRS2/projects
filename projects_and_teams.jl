@@ -406,28 +406,28 @@ Remove indexing graphic mode with direct one.
 					"Bozic",
 					"RA-90/2013",
 					"lazarovmejl@yahoo.com",
-					-1
+					45
 				),
 				Student(
 					"Milan",
 					"Ivankovic",
 					"RA-89/2013",
 					"ivankovic_milan@yahoo.com",
-					-1
+					45
 				),
 				Student(
 					"Branislav",
 					"Vukovic",
 					"RA-88/2013",
 					"vukovic.94@hotmail.com",
-					-1
+					45
 				),
 				Student(
 					"Nemanja",
 					"Pajic",
 					"RA-184/2013",
 					"nemanjap555@gmail.com",
-					-1
+					45
 				)
 			]
 		),
@@ -447,7 +447,7 @@ Use AXI Timer for generating PWM or design custom PWM HW peripheral.
 			"https://github.com/boza94/pizeo_buzz/blob/master/LPRS2-MIDI-Player-with-buzzer-dokumentacija.docx",
 			"https://github.com/boza94/pizeo_buzz/blob/master/midi_piezo_buzzer.bit"
 		),
-		false
+		true
 	),
 	Project(
 		"MP3 Player with text UI",
@@ -728,12 +728,20 @@ and upgrade software with support for complex 4-square shapes.
 		),
 		Solution(
 			"https://github.com/isidorr3/projekatLPRS2",
-			"??",
-			"??",
-			"??"
+			"https://www.youtube.com/watch?v=4VwzyuCIvpM",
+			"https://github.com/isidorr3/projekatLPRS2/blob/master/Battle-City-with-Joystick-Projekat-LPRS2.docx",
+			"https://github.com/isidorr3/projekatLPRS2/blob/master/battle_city_sega_joysticks.bit"
 		),
 		false
 	)
+]
+
+additional = URL[
+	"https://scontent-vie1-1.xx.fbcdn.net/v/t1.0-9/12814673_1680231525591075_1051729422851094889_n.jpg?oh=36529770e78a7aa5f55afd6fe6d8c417&oe=57E5E5FB",
+	"https://www.youtube.com/watch?v=RBa6gx5Mx5c",
+	"https://scontent-vie1-1.xx.fbcdn.net/v/l/t1.0-9/13502065_1148717698525627_1747866040367180828_n.jpg?oh=10befb12e2527104db88d56c6019f86b&oe=57E81CBE",
+	"https://www.youtube.com/watch?v=D3LpQkOpD20",
+	"https://www.youtube.com/watch?v=4olSy5UXO_M"
 ]
 
 ###############################################################################
