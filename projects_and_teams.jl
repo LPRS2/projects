@@ -129,9 +129,9 @@ Simple AXI peripheral with sampling RC-5 protocol.
 		),
 		Solution(
 			"https://github.com/maticmilica/SpaceInvadersRC5",
-			"??",
-			"??",
-			"??"
+			"https://www.youtube.com/watch?v=hJYfN6_-DKI",
+			"https://github.com/maticmilica/SpaceInvadersRC5/blob/master/IR_RC_Space_Invaders.bit",
+			"https://github.com/maticmilica/SpaceInvadersRC5/blob/master/IR%20Controller%20.docx"
 		)
 	),
 	Project(
