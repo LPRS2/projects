@@ -363,21 +363,21 @@ Remove indexing graphic mode with direct one.
 					"Tesic",
 					"RA-198/2011",
  					"btesic@gmail.com",
-					-1
+					45
   				),
   				Student(
  					"Stefan",
  					"Stojanovic",
  					"RA-16/2013",
  					"stefann.stojanovic@gmail.com",
-					-1
+					43
  				),
  				Student(
  					"Aleksandar",
  					"Tanaskovic",
  					"RA-187/2011",
  					"aleksandar1321@gmail.com",
-					-1
+					44
   				)
 			]
 		),
