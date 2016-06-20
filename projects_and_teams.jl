@@ -100,28 +100,28 @@ Implement Snake game on new fancy hardware.
 					"Becirbasic",
 					"RA-68/2013",
 					"dmrbecirbasic22@gmail.com",
-					-1
+					45
 				),
 				Student(
 					"Milos",
 					"Pranjkic",
 					"RA-76/2013",
 					"pranjkic94@gmail.com",
-					-1
+					45
 				),
 				Student(
 					"Marko",
 					"Gostovic",
 					"RA-77/2013",
 					"markog.1994@gmail.com",
-					-1
+					45
 				),
 				Student(
 					"Milica",
 					"Matic",
 					"RA-96/2013",
 					"maticmilica1912@gmail.com",
-					-1
+					45
 				)
 			]
 		),
