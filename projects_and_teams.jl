@@ -652,21 +652,21 @@ Use AsAP as inspiration.
 					"Andric",
 					"RA-175/2013",
 					"andrmoljac@gmail.com",
-					-1
+					40
 				),
 				Student(
 					"Ivan",
 					"Lazarevic",
 					"RA-9/2013",
 					"ivanlazarevic1994@gmail.com",
-					-1
+					40
 				),
 				Student(
 					"Djordje",
 					"Stojanovic",
 					"RA-104/2013",
 					"djordje.stojanovic94@gmail.com",
-					-1
+					39
 				)
 			]
 		),
@@ -685,7 +685,7 @@ and upgrade software with support for complex 4-square shapes.
 			"https://github.com/Andrmoljac/Tetris_Upgrade/blob/master/lab4_i_5/Resenje/basic_system/Tetris_Upgrade.bit",
 			"https://github.com/Andrmoljac/Tetris_Upgrade/blob/master/lab4_i_5/Resenje/basic_system/dokumentacija-lprs2.docx"
 		),
-		false
+		true
 	),
 	Project(
 		"Sega controller – integrate to some game",
