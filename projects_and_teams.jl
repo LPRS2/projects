@@ -178,8 +178,8 @@ Implement Super Mario game on new platform.
 		Solution(
 			"https://github.com/Una13/super_mario",
 			"https://github.com/Una13/super_mario/blob/master/SuperMario.docx",
-			"??",
-			"??"
+			"https://www.youtube.com/watch?v=jrztl2hGDFU",
+			"https://github.com/Una13/super_mario/blob/master/battle_city_design/Super_Mario.bit"
 		)
 	),
 	Project(
