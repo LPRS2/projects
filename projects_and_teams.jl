@@ -295,7 +295,7 @@ Upgrade Space Invaders game to use new higher bandwidth.
 			"https://github.com/MarkoMajkic/LPRS2_Space_Invaders_FSL/blob/master/SpaceInvadersFSL.bit",
 			"https://github.com/MarkoMajkic/LPRS2_Space_Invaders_FSL/blob/master/SpaceInvadersFSL.pdf"
 		),
-		false
+		true
 	),
 	Project(
 		"320x240 9-bit RGB VGA – Minesweeper",
@@ -393,7 +393,7 @@ Remove indexing graphic mode with direct one.
 			"https://github.com/Nevernik/dr_Mario_E2LP/blob/master/___project_data/dr_mario.bit",
 			"https://github.com/Nevernik/dr_Mario_E2LP/blob/master/___project_data/projekat%20Dr%20Mario.docx"
 		),
-		false
+		true
 	),
 	Project(
 		"MIDI Player with buzzer",
@@ -755,6 +755,16 @@ function no_of_students(project::Project)
 end
 N_students = sum(map(no_of_students, projects))
 @show N_students
+
+function project_taken(project::Project)
+	!any(map((member) -> member.name == "??", project.team.members))
+end
+
+for project in projects
+	if !project.done && project_taken(project)
+		println("Not done: ", project.name)
+	end
+end
 
 ###############################################################################
 
