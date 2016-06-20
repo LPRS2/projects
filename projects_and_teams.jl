@@ -201,7 +201,7 @@ Implement Super Mario game on new platform.
 			"https://github.com/milosnikolic93/LPRS2projekat-7SegmentLEDtimer/blob/master/XPS_system/7SegmentLEDtimer.bit",
 			"https://github.com/milosnikolic93/LPRS2projekat-7SegmentLEDtimer/blob/master/LPRS2projekat-7SegmentLEDtimer.docx"
 		),
-		),
+		
 		Spec(
 			"""
 - In sch_7-segment_display and comb_logic there is explanation how 7-segment LED display works.
