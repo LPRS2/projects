@@ -155,14 +155,14 @@ Simple AXI peripheral with sampling RC-5 protocol.
 					"Nan",
 					"RA-180/2013",
 					"nan.eleonora@gmail.com",
-					-1
+					45
 				),
 				Student(
 					"Una",
 					"Radosavac",
 					"RA-28/2013",
 					"una.radosavac@gmail.com",
-					-1
+					45
 				)
 			]
 		),
@@ -177,8 +177,8 @@ Implement Super Mario game on new platform.
 		),
 		Solution(
 			"https://github.com/Una13/super_mario",
-			"https://github.com/Una13/super_mario/blob/master/SuperMario.docx",
 			"https://www.youtube.com/watch?v=jrztl2hGDFU",
+			"https://github.com/Una13/super_mario/blob/master/SuperMario.docx",
 			"https://github.com/Una13/super_mario/blob/master/battle_city_design/Super_Mario.bit"
 		)
 	),
