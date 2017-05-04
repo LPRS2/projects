@@ -738,10 +738,14 @@ and upgrade software with support for complex 4-square shapes.
 
 additional = URL[
 	"https://scontent-vie1-1.xx.fbcdn.net/v/t1.0-9/12814673_1680231525591075_1051729422851094889_n.jpg?oh=36529770e78a7aa5f55afd6fe6d8c417&oe=57E5E5FB",
+	# Making bit file.
 	"https://www.youtube.com/watch?v=RBa6gx5Mx5c",
 	"https://scontent-vie1-1.xx.fbcdn.net/v/l/t1.0-9/13502065_1148717698525627_1747866040367180828_n.jpg?oh=10befb12e2527104db88d56c6019f86b&oe=57E81CBE",
+	# Racoons
 	"https://www.youtube.com/watch?v=D3LpQkOpD20",
-	"https://www.youtube.com/watch?v=4olSy5UXO_M"
+	"https://www.youtube.com/watch?v=4olSy5UXO_M",
+	# Presentations.
+	"https://www.youtube.com/playlist?list=PLjuOUdPeuxFM4A1XPkb6ybeoP9ZpVVUn9"
 ]
 
 ###############################################################################
